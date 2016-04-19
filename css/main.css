@@ -1,0 +1,57 @@
+.container{
+	background-color:#e30074;
+	background-size: cover;
+	height: 680px;
+	text-align: center;
+}
+.info{
+	background-color: white;
+	height: 680px;
+	width: 38%;
+	 margin: 0 32%;
+	 border: solid #2175d9;
+	}
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: helvetica;
+	height: cover;
+}
+img{
+	margin-top: 3%; 
+	width: 40%;
+	border-radius: 100%;
+	border: solid #2175d9;
+
+}
+
+p.descripcion{
+	text-align: justify!important;
+	padding:0 30px;
+	font-size: 15px;
+}
+form input:not(:last-child){
+	border-radius: 10px;
+	height: 30px;
+	width: 80%;
+	margin:  2% 0;
+	padding-left: 2px;
+
+}
+
+
+textarea{
+	border-radius: 10px;
+
+	width: 80%;
+}
+
+form input:last-child{
+	width: 110px;
+	border-radius: 100px;
+	margin-top: 10px;
+	text-align: center;
+	background-color: #b8d000;
+	height: 30px;
+}
